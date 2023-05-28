@@ -3,7 +3,7 @@ const buttons = document.querySelectorAll('button');
 buttons.forEach((button,index) => {
   button.addEventListener('click', function() {
     localStorage.setItem("buttonIndex", index);
-    window.location.href = "main.html";
+    window.location.href = "days/main.html";
   });
 });
 function saveTextareaData(event) {
