@@ -667,4 +667,106 @@ body {
     height: 100%;
     resize: none;
 }
-  
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .weeks{
+        text-align: center;
+        display: block;
+        width: 10%;
+    }
+    .weekPart1{
+        display: inline-block;
+        text-align: center;
+    }
+    .weekPart1 div {
+        margin-bottom: 5%;
+        display: inline-block;
+    }
+    .weekPart1 div  button{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+    
+    .weekPart1 div textarea{
+        margin-left: 0;
+        padding-left: 0;
+        resize: none;
+        width: 100%;
+    }
+    
+    .weekPart2{
+        margin-top: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .weekPart2 div {
+        margin-bottom: 5%;
+        display: inline-block;
+    }
+    .weekPart2 div  button{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+    
+    .weekPart2 div textarea{
+        margin-left: 0;
+        padding-left: 0;
+        resize: none;
+        width: 100%;
+    }
+    .weekPart3{
+        margin-top: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .weekPart3 div {
+        margin-bottom: 5%;
+        width: 25rem;
+        display: inline-block;
+    }
+    .weekPart3 div  button{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+    .notes{
+        margin-left: 0;
+        display: inline-block;
+    }
+    .sunday {
+        display: inline-block;
+    }
+    .sunday button{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+    .sunday textarea{
+        margin-left: 0;
+        padding-left: 0;
+        resize: none;
+        width: 100%;
+    }
+    .day{
+        text-align: center;
+        font-family: 'Clicker Script', cursive;
+        font-weight: bold;
+    }
+    
+   
+}
