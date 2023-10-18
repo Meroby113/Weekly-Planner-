@@ -595,7 +595,6 @@ body {
 
 /* --------------------------------------------------- Main Html CSS Code --------------------------------------------------*/
 .weekPart1{
-    height: 12rem;
     display: flex;
     justify-content: space-between;
     gap: 5%;
@@ -670,22 +669,33 @@ body {
 
 @media (max-width: 768px) {
     body {
-        font-size: 16px;
         margin: 0;
         padding: 0;
     }
+    .title{
+        margin-top: 5%;
+    }
     .weeks{
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
         text-align: center;
-        display: block;
-        width: 10%;
+        margin-top: 5%;
+        
     }
     .weekPart1{
+        height: 100%;
+        margin-left: 0;
         display: inline-block;
         text-align: center;
+        width: 100%;
     }
     .weekPart1 div {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 90%;
         margin-bottom: 5%;
-        display: inline-block;
     }
     .weekPart1 div  button{
        display: flex;
@@ -703,13 +713,18 @@ body {
     }
     
     .weekPart2{
-        margin-top: 100%;
+        height: 100%;
+        margin-left: 0;
         display: inline-block;
         text-align: center;
+        width: 100%;
     }
     .weekPart2 div {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 90%;
         margin-bottom: 5%;
-        display: inline-block;
     }
     .weekPart2 div  button{
         display: flex;
@@ -726,14 +741,18 @@ body {
         width: 100%;
     }
     .weekPart3{
-        margin-top: 100%;
+        height: 100%;
+        margin-left: 0;
         display: inline-block;
         text-align: center;
+        width: 100%;
     }
     .weekPart3 div {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 90%;
         margin-bottom: 5%;
-        width: 25rem;
-        display: inline-block;
     }
     .weekPart3 div  button{
         display: flex;
@@ -742,26 +761,13 @@ body {
         align-items: center;
         text-align: center;
      }
-    .notes{
-        margin-left: 0;
-        display: inline-block;
-    }
-    .sunday {
-        display: inline-block;
-    }
-    .sunday button{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-     }
-    .sunday textarea{
+     .weekPart2 div textarea{
         margin-left: 0;
         padding-left: 0;
         resize: none;
         width: 100%;
     }
+    
     .day{
         text-align: center;
         font-family: 'Clicker Script', cursive;
